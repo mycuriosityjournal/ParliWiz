@@ -1,0 +1,17 @@
+# Ignore Streamlit secrets
+.streamlit/secrets.toml
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore environment variables
+.env
+venv/
+
+# --- NEW: Ignore Google Service Account Keys ---
+# This ignores ALL JSON files (safest option for this project)
+*.json
+
+# OR, if you want to be specific, use the exact filename:
+# service-account-key.json
