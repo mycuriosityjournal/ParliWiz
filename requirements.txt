@@ -1,7 +1,5 @@
 streamlit
 pandas
 streamlit-gsheets-connection
-altair
 google-generativeai
-google-auth
-google-api-python-client
+altair
